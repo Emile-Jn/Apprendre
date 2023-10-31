@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.quiz {
+    max-width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    /* display: flex; */
+    /* justify-content: center; */
+    text-align: center;
+    /* align-items: center; */
+}
+
+#input_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback-container {
+    height: 150px; /* Adjust this value according to your needs */
+}
+
+.button {
+    margin-top: 10px;
+
+}
+
+#end_buttons {
+    display: flex;
+    text-align: center;
+    /* flex-direction: column; /* Stack items vertically */
+    /* justify-content: center;
+    align-items: center; */
+
+}
+
+.progress-bar {
+    width: 100%; /* You can set this to any width you want */
+    background-color: #e0e0e0;
+    height: 30px; /* You can adjust this too */
+    border-radius: 15px; /* half of the height to get rounded ends */
+    overflow: hidden;
+}
+
+.progress {
+    width: 0; /* initially the progress is 0 */
+    height: 100%;
+    background-color: #4CAF50; /* Change this to any color you prefer */
+}
+
