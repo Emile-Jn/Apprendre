@@ -13,18 +13,18 @@
             ["vidieť", "voir"], ["čistiť", "nettoyer"], ["umývať", "laver"], ["vyjsť", "sortir"],
             ["padnúť", "tomber"]
           ],
-          [['muž', "l'homme"],['žena', 'la femme'],['dieťa', "l'enfant"],['bábätko', 'le bébé'],
-           ['chlapec', 'le garçon'],['dievča', 'la fille'],['otec', 'le père'], ['matka', 'la mère'],
-           ['syn', 'le fils'], ['dcéra', 'la fille'],['brat', 'le frère'], ['sestra', 'la sœur'],
-           ['starý otec', 'le grand-père'],['stará mama', 'la grand-mère'],['manžel', 'le mari'],
-           ['manželka', 'la femme'], ['osoba', 'la personne'], ['strýko', "l'oncle"],
-           ['teta', 'la tante'], ['bratranec', 'le cousin']
-          ],
-          [['sesternica', 'la cousine'],['synovec', 'le neveu'], ['neter', 'la nièce'],['žiak', "l'élève"],
-           ['študent', "l'étudiant"], ['profesor', 'le professeur'],['lekár', 'le médecin'],
-           ['priateľ', "l'ami"],['nepriateľ', "l'ennemi"],['kamarát', 'le camarade'],['rodič', 'le parent'],
-           ['človek', "l'humain"],['vnuk', 'le petit-fils'], ['vnučka', 'la petite-fille'],
-           ['priateľ', 'le petit ami'], ['priateľka', 'la petite amie'],['súrodenci', 'les frères et sœurs'],
-           ['vnúčatá', 'les petits-enfants'],['nájomník', 'le locataire'],['majiteľ', 'le propriétaire']
+          [["muž", "l’homme"],["žena", "la femme"],["dieťa", "l’enfant"],["bábätko", "le bébé"],
+           ["chlapec", "le garçon"],["dievča", "la fille"],["otec", "le père"], ["matka", "la mère"],
+           ["syn", "le fils"], ["dcéra", "la fille"],["brat", "le frère"], ["sestra", "la sœur"],
+           ["starý otec", "le grand-père"],["stará mama", "la grand-mère"],["manžel", "le mari"],
+           ["manželka", "la femme"], ["osoba", "la personne"], ["strýko", "l’oncle"],
+           ["teta", "la tante"], ["bratranec", "le cousin"]
+           ],
+          [["sesternica", "la cousine"],["synovec", "le neveu"], ["neter", "la nièce"],["žiak", "l’élève"],
+           ["študent", "l’étudiant"], ["profesor", "le professeur"],["lekár", "le médecin"],
+           ["priateľ", "l’ami"],["nepriateľ", "l"ennemi"],["kamarát", "le camarade"],["rodič", "le parent"],
+           ["človek", "l’humain"],["vnuk", "le petit-fils"], ["vnučka", "la petite-fille"],
+           ["priateľ", "le petit ami"], ["priateľka", "la petite amie"],["súrodenci", "les frères et sœurs"],
+           ["vnúčatá", "les petits-enfants"],["nájomník", "le locataire"],["majiteľ", "le propriétaire"]
+           ]
           ]
-]
