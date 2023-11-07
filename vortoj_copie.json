@@ -24,7 +24,7 @@
            ["študent", "l’étudiant"], ["profesor", "le professeur"],["lekár", "le médecin"],
            ["priateľ", "l’ami"],["nepriateľ", "l’ennemi"],["kamarát", "le camarade"],["rodič", "le parent"],
            ["človek", "l’humain"],["vnuk", "le petit-fils"], ["vnučka", "la petite-fille"],
-           ["priateľ", "le petit ami"], ["priateľka", "la petite amie"],["súrodenci", "les frères et sœurs"],
+           ["priateľ", "le petit ami"], ["priateľka", "la petite amie"],
            ["vnúčatá", "les petits-enfants"],["nájomník", "le locataire"],["majiteľ", "le propriétaire"]
            ]
           ]
