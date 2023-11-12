@@ -26,5 +26,10 @@
            ["človek", "l’humain"],["vnuk", "le petit-fils"], ["vnučka", "la petite-fille"],
            ["frajer", "le petit ami"], ["frajerka", "la petite amie"],
            ["vnúčatá", "les petits-enfants"],["nájomník", "le locataire"],["majiteľ", "le propriétaire"]
-           ]
+           ],
+          [["hľadať", "chercher"], ["nájsť", "trouver"], ["ľubiť, mať rad", "aimer"], 
+          ["nenávidieť", "détester"], ["žiť", "vivre"], ["umrieť", "mourir"], ["učiť sa", "apprendre"], 
+          ["učiť", "enseigner"], ["kupiť", "acheter"], ["predať", "vendre"], ["platiť", "payer"], 
+          ["vyhrať", "gagner"], ["prehrať", "perdre"], ["vyjednávať", "négocier"], ["bežať", "courir"], 
+          ["plávať", "nager"], ["skočiť", "sauter"], ["liezť", "grimper"], ["piť", "boire"], ["čakať", "attendre"]]
           ]
