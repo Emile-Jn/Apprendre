@@ -1,6 +1,3 @@
-// const _ = require('lodash');
-// import { shuffle } from 'lodash';
-
 const word = document.getElementById("word")
 const input = document.getElementById("input")
 const feedback = document.getElementById("feedback")
@@ -10,6 +7,8 @@ const change_list = document.getElementById("change_list")
 const end_buttons = document.getElementById("end_buttons")
 const progressBar = document.getElementById("progress-bar");
 const progress = document.getElementById("progress");
+const tableBody = document.getElementById('logTableBody');
+const tableContainer = document.getElementById('logTableContainer');
 
 // Declare variables
 let vortoj = []
@@ -17,10 +16,10 @@ let word_list = []
 let current_word_index = 0;
 let score = 0;
 let score_max = 50;
-let numlist = 0;
+let maxList = 0; // the number of lists
 
 let rep = 3  // repeat word after rep words
-let num = 0  // list number
+let listNumber = 0  // list number
 let determinants = ["le", "la"]
 let Interface = "start"
 let prog = 0; // Start with a progress of 0
@@ -59,40 +58,41 @@ function fetchQuestions() {
 
 
 // This function changes the interface to ask the user for a list number
-function list_number() {
-    console.log("list_number (line )") // TODO: remove
-    Interface = "list_number"
+function askForList() {
+    console.log("askForList (line )") // TODO: remove
+    Interface = "askForList"
     word.style.display = "block"
     word.textContent = "Choose a list"
     input.style.display = "block"
     input.addEventListener("keydown", listHandler);
     end_buttons.style.display = "none" // originally in the function d_or_s
     progressBar.style.display = "none" // originally in the function d_or_s
+
+    showLogs() // Show a list of logs
 }
 
-let AA = 1
 
 // This function checks if the input is a valid number and then
 // calls set_list() to define the list and quiz() to start the quiz
 function listHandler(e) {
     console.log("listHandler (line )") // TODO: remove
     if (e.key === "Enter") {
-        numlist = vortoj.length
-        console.log(`the length of the 'lists' object is ${numlist}`)
+        maxList = vortoj.length
+        console.log(`the length of the 'lists' object is ${maxList}`)
         while (true) { // while the input is not an existing list number
-            num = parseInt(input.value); // the number entered is treated as the number of the desired list
-            if (num <= numlist && num > 0) {
+            listNumber = parseInt(input.value); // the number entered is treated as the number of the desired list
+            if (listNumber <= maxList && listNumber > 0) {
                 break; // exit loop if valid input
             }
             feedback.style.color = "red";
-            feedback.textContent = `The maximum list number is ${numlist}! Enter a number between 1 and ${numlist}.`;
+            feedback.textContent = `The maximum list number is ${maxList}! Enter a number between 1 and ${maxList}.`;
             input.value = "";
             return;
         }
         input.value = "" // clear text in text box
         feedback.textContent = ""; // clear feedback
         input.removeEventListener("keydown", listHandler);
-        set_list(num);
+        set_list(listNumber);
         // word.textContent = "enter"
         quiz();
     }
@@ -129,23 +129,24 @@ function quiz() {
     updateProgressBar()
     word.textContent = word_list[current_word_index][0]
     input.addEventListener("keydown", enterHandler)
+    tableContainer.style.display = "none" // Hide the table of logs
 }
 
 function enterHandler(e) {
     console.log("enterHandler (line )") // TODO: remove
     if (e.key === "Enter") {
-        check_answer()
+        checkAnswer()
     }
 }
 
-function check_answer() {
-    console.log("check_answer (line )") // TODO: remove
+function checkAnswer() {
+    console.log("checkAnswer (line )") // TODO: remove
     const inp = input.value
     const answer = word_list[current_word_index][1]
     const shown = word_list[current_word_index][2]
     input.value = "" // clear text in text box
-    if (inp === answer) {
-        if (!shown) {
+    if (inp === answer) { // User input is correct
+        if (!shown) { // if the word has not been shown yet
             score++
         }
         current_word_index++
@@ -155,9 +156,9 @@ function check_answer() {
         } else {
             canProgress = true; // next word correct will count as progress
         }
-        if (current_word_index >= word_list.length) {
+        if (current_word_index >= word_list.length) { // end of list
             show_result()
-        } else {
+        } else { // next word
             word.textContent = word_list[current_word_index][0]
             feedback.textContent = "correct!"
             feedback.style.color = "green"
@@ -216,7 +217,9 @@ function updateProgressBar() {
 }
 
 function show_result() {
-    console.log("show result (line ") // TODO: remove
+
+    saveLog(listNumber, score, score_max); // record activity in local storage
+
     Interface = "end"
     word.style.display = "none"
     input.removeEventListener("keydown", enterHandler)
@@ -234,6 +237,8 @@ function show_result() {
     progressBar.style.display = "none" // hide the progress bar
     prog = 0; // restart the progress from 0
 
+    showLogs() // Show previously completed lists
+
     current_word_index = 0
     score = 0
     word_list = []
@@ -242,23 +247,55 @@ function show_result() {
 function startAgain() {
     console.log("Starting again (line )") // TODO: remove
     collapseMenu()
-    set_list(num)
+    set_list(listNumber)
     quiz()
 }
 
 function changeList() {
     console.log("changeList (line )") // TODO: remove
     collapseMenu()
-    list_number()
+    askForList()
 }
 
 function collapseMenu() {
     console.log("collapseMenu (line )") // TODO: remove
     result.style.display = "none"
     end_buttons.style.display = "none"
+    tableContainer.style.display = "none"
+}
+
+
+function saveLog(listNumber, score, scoreMax) {
+    // Create a new log entry
+    const newLog = { date: new Date(), listNumber: listNumber, score: score , scoreMax: scoreMax};
+
+    // Retrieve the existing logs (if any)
+    const existingLogs = JSON.parse(localStorage.getItem('logs')) || [];
+
+    existingLogs.push(newLog); // Add the new log to the array
+
+    localStorage.setItem('logs', JSON.stringify(existingLogs)); // Save the updated array back to Local Storage
+}
+
+function showLogs() {
+    // Retrieve and return the logs
+    const logs = JSON.parse(localStorage.getItem('logs')) || [];
+    tableContainer.style.display = logs.length ? 'block' : 'none'; // Hide the table if there are no logs
+    tableBody.innerHTML = ''; // Clear existing entries
+
+    logs.reverse().forEach(log => {
+        const row = tableBody.insertRow();
+        const dateCell = row.insertCell(0);
+        const listCell = row.insertCell(1);
+        const scoreCell = row.insertCell(2);
+
+        dateCell.textContent = new Date(log.date).toLocaleString();
+        listCell.textContent = log.listNumber;
+        scoreCell.textContent = log.score + '/' + log.scoreMax;
+    });
 }
 
 
 // Initialise the quiz:
 fetchQuestions()
-list_number()
+askForList()

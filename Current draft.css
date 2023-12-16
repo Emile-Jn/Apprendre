@@ -4,16 +4,12 @@ body {
 }
 
 .quiz {
-    max-width: 400px;
-    height: 300px;
+    max-width: 700px;
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    /* display: flex; */
-    /* justify-content: center; */
     text-align: center;
-    /* align-items: center; */
     background-color: #FFF8FC;
 }
 
@@ -29,7 +25,13 @@ body {
 
 .button {
     margin-top: 10px;
-
+    font-size: 1rem;
+    padding: 10px 20px; /* More padding for larger appearance */
+    width: auto; /* Auto width to adjust with content, or set a specific width */
+    height: auto; /* Auto height to adjust with content, or set a specific height */
+    border: 2px solid #ccc; /* Optional: thicker border */
+    border-radius: 5px; /* Optional: rounded corners */
+    cursor: pointer; /* Changes the cursor to a pointer to indicate it's clickable */
 }
 
 #end_buttons {
@@ -55,3 +57,30 @@ body {
     background-color: #C6FBD6; /* Change this to any color you prefer */
 }
 
+#logTableContainer {
+    max-height: 300px;
+    max-width: 400px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    margin: 20px auto 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+html { font-size: 24px; }
