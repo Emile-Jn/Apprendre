@@ -46,7 +46,7 @@ function loadJSONFile(file, callback) {
 function fetchQuestions() {
     console.log("fetchQuestions (line )") // TODO: remove
     // Load the questions from the local JSON file
-    loadJSONFile("vortoj_copie.json", function (data) {
+    loadJSONFile("vortoj.json", function (data) {
         if (data) {
             vortoj = JSON.parse(data);
             // displayQuestion();
