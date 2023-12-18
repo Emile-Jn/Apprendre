@@ -1,35 +1,606 @@
 [
-          [["byť", "être"], ["mať", "avoir"], ["bývať", "habiter"], ["volať sa", "s’appeler"],
-            ["hovoriť", "parler"], ["chcieť","vouloir"], ["smieť, môcť", "pouvoir"],
-            ["musieť", "devoir"], ["vedieť", "savoir"], ["chodiť", "marcher"], ["brať", "prendre"],
-            ["dať (na niečo)", "mettre"], ["robiť", "faire"], ["povedať", "dire"], ["počuť", "entendre"],
-            ["rozumieť", "comprendre"], ["ísť", "aller"], ["prísť", "venir"], ["odísť", "partir"],
-            ["dať (dar)", "donner"]
-          ],
-          [["variť", "cuisiner"], ["piecť", "cuire"], ["študovať", "étudier"], ["pracovať", "travailler"],
-            ["začať", "commencer"], ["končiť", "finir"], ["predvidať", "prévoir"], ["riadiť", "conduire"],
-            ["niesť", "porter"], ["spáť", "dormir"], ["pozrieť", "regarder"], ["počúvať", "écouter"],
-            ["poznať", "connaître"], ["cítiť", "sentir"], ["potrebovať", "avoir besoin de"],
-            ["vidieť", "voir"], ["čistiť", "nettoyer"], ["umývať", "laver"], ["vyjsť", "sortir"],
-            ["padnúť", "tomber"]
-          ],
-          [["muž", "l’homme"],["žena", "la femme"],["dieťa", "l’enfant"],["bábätko", "le bébé"],
-           ["chlapec", "le garçon"],["dievča", "la fille"],["otec", "le père"], ["matka", "la mère"],
-           ["syn", "le fils"], ["dcéra", "la fille"],["brat", "le frère"], ["sestra", "la sœur"],
-           ["starý otec", "le grand-père"],["stará mama", "la grand-mère"],["manžel", "le mari"],
-           ["manželka", "la femme"], ["osoba", "la personne"], ["strýko", "l’oncle"],
-           ["teta", "la tante"], ["bratranec", "le cousin"]
-           ],
-          [["sesternica", "la cousine"],["synovec", "le neveu"], ["neter", "la nièce"],["žiak", "l’élève"],
-           ["študent", "l’étudiant"], ["profesor", "le professeur"],["lekár", "le médecin"],
-           ["priateľ", "l’ami"],["nepriateľ", "l’ennemi"],["kamarát", "le camarade"],["rodič", "le parent"],
-           ["človek", "l’humain"],["vnuk", "le petit-fils"], ["vnučka", "la petite-fille"],
-           ["frajer", "le petit ami"], ["frajerka", "la petite amie"],
-           ["vnúčatá", "les petits-enfants"],["nájomník", "le locataire"],["majiteľ", "le propriétaire"]
-           ],
-          [["hľadať", "chercher"], ["nájsť", "trouver"], ["ľubiť, mať rad", "aimer"], 
-          ["nenávidieť", "détester"], ["žiť", "vivre"], ["umrieť", "mourir"], ["učiť sa", "apprendre"], 
-          ["učiť", "enseigner"], ["kupiť", "acheter"], ["predať", "vendre"], ["platiť", "payer"], 
-          ["vyhrať", "gagner"], ["prehrať", "perdre"], ["vyjednávať", "négocier"], ["bežať", "courir"], 
-          ["plávať", "nager"], ["skočiť", "sauter"], ["liezť", "grimper"], ["piť", "boire"], ["čakať", "attendre"]]
+  [
+    [
+      "byť",
+      "être"
+    ],
+    [
+      "mať",
+      "avoir"
+    ],
+    [
+      "bývať",
+      "habiter"
+    ],
+    [
+      "volať sa",
+      "s'appeler"
+    ],
+    [
+      "hovoriť",
+      "parler"
+    ],
+    [
+      "vouloir",
+      "chcieť"
+    ],
+    [
+      "smieť, môcť",
+      "pouvoir"
+    ],
+    [
+      "musieť",
+      "devoir"
+    ],
+    [
+      "vedieť",
+      "savoir"
+    ],
+    [
+      "chodiť",
+      "marcher"
+    ],
+    [
+      "brať",
+      "prendre"
+    ],
+    [
+      "dať",
+      "mettre"
+    ],
+    [
+      "robiť",
+      "faire"
+    ],
+    [
+      "povedať",
+      "dire"
+    ],
+    [
+      "počuť",
+      "entendre"
+    ],
+    [
+      "rozumieť",
+      "comprendre"
+    ],
+    [
+      "ísť",
+      "aller"
+    ],
+    [
+      "prísť",
+      "venir"
+    ],
+    [
+      "odísť",
+      "partir"
+    ],
+    [
+      "dať (dar)",
+      "donner"
+    ]
+  ],
+  [
+    [
+      "variť",
+      "cuisiner"
+    ],
+    [
+      "piecť",
+      "cuire"
+    ],
+    [
+      "študovať",
+      "étudier"
+    ],
+    [
+      "pracovať",
+      "travailler"
+    ],
+    [
+      "začať",
+      "commencer"
+    ],
+    [
+      "končiť",
+      "finir"
+    ],
+    [
+      "predvídať",
+      "prévoir"
+    ],
+    [
+      "riadiť",
+      "conduire"
+    ],
+    [
+      "niesť",
+      "porter"
+    ],
+    [
+      "spať",
+      "dormir"
+    ],
+    [
+      "pozrieť",
+      "regarder"
+    ],
+    [
+      "počúvať",
+      "écouter"
+    ],
+    [
+      "poznať",
+      "connaître"
+    ],
+    [
+      "cítiť",
+      "sentir"
+    ],
+    [
+      "potrebovať",
+      "avoir besoin de"
+    ],
+    [
+      "vidieť",
+      "voir"
+    ],
+    [
+      "čistiť",
+      "nettoyer"
+    ],
+    [
+      "umývať",
+      "laver"
+    ],
+    [
+      "vyjsť",
+      "sortir"
+    ],
+    [
+      "padnúť",
+      "tomber"
+    ]
+  ],
+  [
+    [
+      "muž",
+      "l'homme"
+    ],
+    [
+      "žena",
+      "la femme"
+    ],
+    [
+      "dieťa",
+      "l'enfant"
+    ],
+    [
+      "bábätko",
+      "le bébé"
+    ],
+    [
+      "chlapec",
+      "le garçon"
+    ],
+    [
+      "dievča",
+      "la fille"
+    ],
+    [
+      "otec",
+      "le père"
+    ],
+    [
+      "matka",
+      "la mère"
+    ],
+    [
+      "syn",
+      "le fils"
+    ],
+    [
+      "dcéra",
+      "la fille"
+    ],
+    [
+      "brat",
+      "le frère"
+    ],
+    [
+      "sestra",
+      "la sœur"
+    ],
+    [
+      "starý otec",
+      "le grand-père"
+    ],
+    [
+      "stará mama",
+      "la grand-mère"
+    ],
+    [
+      "manžel",
+      "le mari"
+    ],
+    [
+      "manželka",
+      "la femme"
+    ],
+    [
+      "osoba",
+      "la personne"
+    ],
+    [
+      "strýko",
+      "l'oncle"
+    ],
+    [
+      "teta",
+      "la tante"
+    ],
+    [
+      "bratranec",
+      "le cousin"
+    ]
+  ],
+  [
+    [
+      "sesternica",
+      "la cousine"
+    ],
+    [
+      "synovec",
+      "le neveu"
+    ],
+    [
+      "neter",
+      "la nièce"
+    ],
+    [
+      "žiak",
+      "l'élève"
+    ],
+    [
+      "študent",
+      "l'étudiant"
+    ],
+    [
+      "profesor",
+      "le professeur"
+    ],
+    [
+      "lekár",
+      "le médecin"
+    ],
+    [
+      "priateľ",
+      "l'ami"
+    ],
+    [
+      "nepriateľ",
+      "l'ennemi"
+    ],
+    [
+      "kamarát",
+      "le camarade"
+    ],
+    [
+      "rodič",
+      "le parent"
+    ],
+    [
+      "človek",
+      "l'humain"
+    ],
+    [
+      "vnuk",
+      "le petit-fils"
+    ],
+    [
+      "vnučka",
+      "la petite-fille"
+    ],
+    [
+      "frajer",
+      "le petit ami"
+    ],
+    [
+      "frajerka",
+      "la petite amie"
+    ],
+    [
+      "vnúčatá",
+      "les petits-enfants"
+    ],
+    [
+      "nájomník",
+      "le locataire"
+    ],
+    [
+      "majiteľ",
+      "le propriétaire"
+    ]
+  ],
+  [
+    [
+      "hľadať",
+      "chercher"
+    ],
+    [
+      "nájsť",
+      "trouver"
+    ],
+    [
+      "ľubiť, mať rad",
+      "aimer"
+    ],
+    [
+      "nenávidieť",
+      "détester"
+    ],
+    [
+      "žiť",
+      "vivre"
+    ],
+    [
+      "umrieť",
+      "mourir"
+    ],
+    [
+      "učiť sa",
+      "apprendre"
+    ],
+    [
+      "učiť",
+      "enseigner"
+    ],
+    [
+      "kupiť",
+      "acheter"
+    ],
+    [
+      "predať",
+      "vendre"
+    ],
+    [
+      "platiť",
+      "payer"
+    ],
+    [
+      "vyhrať",
+      "gagner"
+    ],
+    [
+      "prehrať",
+      "perdre"
+    ],
+    [
+      "vyjednávať",
+      "négocier"
+    ],
+    [
+      "bežať",
+      "courir"
+    ],
+    [
+      "plávať",
+      "nager"
+    ],
+    [
+      "skočiť",
+      "sauter"
+    ],
+    [
+      "liezť",
+      "grimper"
+    ],
+    [
+      "piť",
+      "boire"
+    ],
+    [
+      "čakať",
+      "attendre"
+    ]
+  ],
+  [
+    [
+      "pýtať sa",
+      "demander"
+    ],
+    [
+      "pršať",
+      "pleuvoir"
+    ],
+    [
+      "snežiť",
+      "neiger"
+    ],
+    [
+      "tiecť",
+      "couler"
+    ],
+    [
+      "utrieť",
+      "essuyer"
+    ],
+    [
+      "hodiť",
+      "lancer"
+    ],
+    [
+      "ľahnúť",
+      "se coucher"
+    ],
+    [
+      "kliknuť",
+      "cliquer"
+    ],
+    [
+      "otvoriť",
+      "ouvrir"
+    ],
+    [
+      "zavrieť",
+      "fermer"
+    ],
+    [
+      "zamknúť",
+      "verrouiller"
+    ],
+    [
+      "tlačiť",
+      "appuyer"
+    ],
+    [
+      "snívať",
+      "rêver"
+    ],
+    [
+      "udrieť",
+      "frapper"
+    ],
+    [
+      "lietať",
+      "voler"
+    ],
+    [
+      "rozbiť",
+      "casser"
+    ],
+    [
+      "opraviť",
+      "réparer"
+    ],
+    [
+      "položiť",
+      "poser"
+    ],
+    [
+      "dostať",
+      "recevoir"
+    ],
+    [
+      "navrhnuť",
+      "proposer"
+    ]
+  ],
+  [
+    [
+      "usmiať sa",
+      "sourire"
+    ],
+    [
+      "smiať sa",
+      "rire"
+    ],
+    [
+      "plakať",
+      "pleurer"
+    ],
+    [
+      "postaviť",
+      "construire"
+    ],
+    [
+      "oddýchnuť",
+      "se reposer"
+    ],
+    [
+      "odobrať",
+      "enlever"
+    ],
+    [
+      "vyprázdniť",
+      "vider"
+    ],
+    [
+      "naplniť",
+      "remplir"
+    ],
+    [
+      "overiť",
+      "vérifier"
+    ],
+    [
+      "čítať",
+      "lire"
+    ],
+    [
+      "písať",
+      "écrire"
+    ],
+    [
+      "rezervovať",
+      "réserver"
+    ],
+    [
+      "hrať",
+      "jouer"
+    ],
+    [
+      "cvičiť",
+      "s’entraîner"
+    ],
+    [
+      "spievať",
+      "chanter"
+    ],
+    [
+      "tancovať",
+      "danser"
+    ],
+    [
+      "prihlásiť",
+      "s’inscrire"
+    ],
+    [
+      "zúčastniť sa",
+      "participer"
+    ]
+  ],
+  [
+    [
+      "les parents",
+      "rodičia"
+    ],
+    [
+      "le voyageur",
+      "cestujúci"
+    ],
+    [
+      "personne",
+      "nikto"
+    ],
+    [
+      "les gens",
+      "ľud"
+    ],
+    [
+      "le meilleur",
+      "najlepší"
+    ],
+    [
+      "le pire",
+      "najhorší"
+    ],
+    [
+      "la connaissance (personne)",
+      "známy"
+    ],
+    [
+      "le collègue",
+      "kolega"
+    ],
+    [
+      "le monsieur",
+      "pán"
+    ],
+    [
+      "la madame",
+      "pani"
+    ]
+  ]
 ]
