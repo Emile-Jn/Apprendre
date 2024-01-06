@@ -21,8 +21,8 @@
       "parler"
     ],
     [
-      "vouloir",
-      "chcieť"
+      "chcieť",
+      "vouloir"
     ],
     [
       "smieť, môcť",
@@ -563,44 +563,580 @@
   ],
   [
     [
-      "les parents",
-      "rodičia"
+      "rodičia",
+      "les parents"
     ],
     [
-      "le voyageur",
-      "cestujúci"
+      "cestujúci",
+      "le voyageur"
     ],
     [
-      "personne",
-      "nikto"
+      "nikto",
+      "personne"
     ],
     [
-      "les gens",
-      "ľud"
+      "ľud",
+      "les gens"
     ],
     [
-      "le meilleur",
-      "najlepší"
+      "známy",
+      "la connaissance (personne)"
     ],
     [
-      "le pire",
-      "najhorší"
+      "kolega",
+      "le collègue"
     ],
     [
-      "la connaissance (personne)",
-      "známy"
+      "pán",
+      "le monsieur"
     ],
     [
-      "le collègue",
-      "kolega"
+      "pani",
+      "la madame"
     ],
     [
-      "le monsieur",
-      "pán"
+      "najlepší",
+      "le meilleur"
     ],
     [
-      "la madame",
-      "pani"
+      "najhorší",
+      "le pire"
+    ],
+    [
+      "organizácia",
+      "l'organisation"
+    ],
+    [
+      "stretnutie",
+      "le rendez-vous"
+    ],
+    [
+      "správa",
+      "le message"
+    ],
+    [
+      "diskusia",
+      "la discussion"
+    ],
+    [
+      "výhľad",
+      "la vue"
+    ],
+    [
+      "dátum",
+      "la date"
+    ],
+    [
+      "krok",
+      "l'étape"
+    ],
+    [
+      "spôsobilosť",
+      "la compétence"
+    ],
+    [
+      "informácia",
+      "l'information"
+    ],
+    [
+      "vyhlásenie",
+      "la déclaration"
+    ]
+  ],
+  [
+    [
+      "dom",
+      "la maison"
+    ],
+    [
+      "byt",
+      "l'appartement"
+    ],
+    [
+      "univerzita",
+      "l'université"
+    ],
+    [
+      "škola",
+      "l'école"
+    ],
+    [
+      "obecný úrad",
+      "la mairie"
+    ],
+    [
+      "pošta",
+      "la poste"
+    ],
+    [
+      "mesto",
+      "la ville"
+    ],
+    [
+      "dedina",
+      "le village"
+    ],
+    [
+      "ulica",
+      "la rue"
+    ],
+    [
+      "budova",
+      "le bâtiment"
+    ],
+    [
+      "auto",
+      "la voiture"
+    ],
+    [
+      "vlak",
+      "le train"
+    ],
+    [
+      "bicykel",
+      "le vélo"
+    ],
+    [
+      "lietadlo",
+      "l'avion"
+    ],
+    [
+      "autobus",
+      "le bus"
+    ],
+    [
+      "električka",
+      "le tram"
+    ],
+    [
+      "nákladné auto",
+      "le camion"
+    ],
+    [
+      "letisko",
+      "l'aéroport"
+    ],
+    [
+      "stanica",
+      "la station"
+    ],
+    [
+      "cesta",
+      "la route"
+    ]
+  ],
+  [
+    [
+      "šálka",
+      "la tasse"
+    ],
+    [
+      "záves",
+      "le rideau"
+    ],
+    [
+      "polička",
+      "l'étagère"
+    ],
+    [
+      "záchod",
+      "les toilettes"
+    ],
+    [
+      "matrac",
+      "le matelas"
+    ],
+    [
+      "vankúš",
+      "l'oreiller"
+    ],
+    [
+      "skriňa",
+      "le placard"
+    ],
+    [
+      "chladnička",
+      "le frigo"
+    ],
+    [
+      "rúra",
+      "le four"
+    ],
+    [
+      "mikrovlnka",
+      "le micro-ondes"
+    ],
+    [
+      "hriankovač",
+      "le grille-pain"
+    ],
+    [
+      "škatula",
+      "la boîte"
+    ],
+    [
+      "príbory",
+      "les couverts"
+    ],
+    [
+      "nôž",
+      "le couteau"
+    ],
+    [
+      "vidlička",
+      "la fourchette"
+    ],
+    [
+      "lyžička",
+      "la cuillère"
+    ],
+    [
+      "doska",
+      "la planche"
+    ],
+    [
+      "tanier",
+      "l'assiette"
+    ],
+    [
+      "misa",
+      "le bol"
+    ],
+    [
+      "pohár",
+      "le verre"
+    ]
+  ],
+  [
+    [
+      "džbán",
+      "la carafe"
+    ],
+    [
+      "voda",
+      "l'eau"
+    ],
+    [
+      "kohútik",
+      "le robinet"
+    ],
+    [
+      "drez",
+      "l'évier"
+    ],
+    [
+      "radiátor",
+      "le radiateur"
+    ],
+    [
+      "sprcha",
+      "la douche"
+    ],
+    [
+      "zrkadlo",
+      "le miroir"
+    ],
+    [
+      "gauč",
+      "le canapé"
+    ],
+    [
+      "stolička",
+      "la chaise"
+    ],
+    [
+      "kreslo",
+      "le fauteuil"
+    ],
+    [
+      "posteľ",
+      "le lit"
+    ],
+    [
+      "stôl",
+      "la table"
+    ],
+    [
+      "písací stôl",
+      "le bureau"
+    ],
+    [
+      "lampa",
+      "la lampe"
+    ],
+    [
+      "taburetka",
+      "le tabouret"
+    ],
+    [
+      "smetný kôš",
+      "la poubelle"
+    ],
+    [
+      "vrece",
+      "le sac"
+    ],
+    [
+      "púzdro",
+      "l'étui"
+    ],
+    [
+      "batéria",
+      "la batterie"
+    ],
+    [
+      "strana",
+      "la page"
+    ]
+  ],
+  [
+    [
+      "práca",
+      "le travail"
+    ],
+    [
+      "klíma",
+      "le climat"
+    ],
+    [
+      "kuchyňa",
+      "la cuisine"
+    ],
+    [
+      "izba",
+      "la salle"
+    ],
+    [
+      "spálňa",
+      "la chambre"
+    ],
+    [
+      "čakáreň",
+      "la salle d'attente"
+    ],
+    [
+      "kúpeľňa",
+      "la salle de bain"
+    ],
+    [
+      "jedáleň",
+      "la salle à manger"
+    ],
+    [
+      "obývačka",
+      "le salon"
+    ],
+    [
+      "dvere",
+      "la porte"
+    ],
+    [
+      "okno",
+      "la fenêtre"
+    ],
+    [
+      "kľučka",
+      "la poignée"
+    ],
+    [
+      "stena",
+      "le mur"
+    ],
+    [
+      "zem",
+      "le sol"
+    ],
+    [
+      "strop",
+      "le plafond"
+    ],
+    [
+      "strecha",
+      "le toît"
+    ],
+    [
+      "poschodie",
+      "l'étage"
+    ],
+    [
+      "gombík",
+      "le bouton"
+    ],
+    [
+      "kvapka",
+      "la goutte"
+    ],
+    [
+      "vedro",
+      "le seau"
+    ]
+  ],
+  [
+    [
+      "topánka",
+      "la chaussure"
+    ],
+    [
+      "ponožka",
+      "la chaussette"
+    ],
+    [
+      "nohavice",
+      "le pantalon"
+    ],
+    [
+      "tričko",
+      "le t-shirt"
+    ],
+    [
+      "sveter",
+      "le pull"
+    ],
+    [
+      "kabát",
+      "le manteau"
+    ],
+    [
+      "klobúk",
+      "le chapeau"
+    ],
+    [
+      "čiapka",
+      "la casquette"
+    ],
+    [
+      "rukavice",
+      "le gant"
+    ],
+    [
+      "telefón",
+      "le téléphone"
+    ],
+    [
+      "nabíjačka",
+      "le chargeur"
+    ],
+    [
+      "slúchadlá",
+      "l'écouteur"
+    ],
+    [
+      "obrazovka",
+      "l'écran"
+    ],
+    [
+      "mikrofón",
+      "le microphone"
+    ],
+    [
+      "kamera",
+      "la caméra"
+    ],
+    [
+      "webová stránka",
+      "le site web"
+    ],
+    [
+      "myš",
+      "la souris"
+    ],
+    [
+      "klávesnica",
+      "le clavier"
+    ],
+    [
+      "kláves",
+      "la touche"
+    ],
+    [
+      "prehliadač",
+      "le navigateur"
+    ]
+  ],
+  [
+    [
+      "ale",
+      "mais"
+    ],
+    [
+      "kde, kam",
+      "où"
+    ],
+    [
+      "tak, toľko",
+      "tellement"
+    ],
+    [
+      "a",
+      "et"
+    ],
+    [
+      "alebo",
+      "ou"
+    ],
+    [
+      "ak",
+      "si"
+    ],
+    [
+      "ako (podobnosť)",
+      "comme"
+    ],
+    [
+      "ako (spôsob)",
+      "comment"
+    ],
+    [
+      "tak",
+      "comme ça"
+    ],
+    [
+      "pred (niečím iným)",
+      "devant"
+    ],
+    [
+      "pred",
+      "avant"
+    ],
+    [
+      "po, za, potom",
+      "après"
+    ],
+    [
+      "skoro",
+      "tôt"
+    ],
+    [
+      "neskoro",
+      "tard"
+    ],
+    [
+      "až",
+      "jusque"
+    ],
+    [
+      "pre, za",
+      "pour"
+    ],
+    [
+      "prečo",
+      "pourquoi"
+    ],
+    [
+      "kto",
+      "qui"
+    ],
+    [
+      "čo",
+      "quoi"
+    ],
+    [
+      "keď",
+      "quand"
+    ],
+    [
+      "od, z",
+      "de"
     ]
   ]
 ]
