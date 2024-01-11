@@ -141,8 +141,10 @@ function enterHandler(e) {
 
 function checkAnswer() {
     console.log("checkAnswer (line )") // TODO: remove
-    const inp = input.value
-    const answer = word_list[current_word_index][1]
+    let inp = input.value
+    inp = standardizeApostrophes(inp)
+    let answer = word_list[current_word_index][1]
+    answer = standardizeApostrophes(answer)
     const shown = word_list[current_word_index][2]
     input.value = "" // clear text in text box
     if (inp === answer) { // User input is correct
@@ -293,6 +295,10 @@ function showLogs() {
         listCell.textContent = log.listNumber;
         scoreCell.textContent = log.score + '/' + log.scoreMax;
     });
+}
+
+function standardizeApostrophes(str) {
+    return str.replace(/[\u2018\u2019\u00B4\u0060]/g, "\u0027");
 }
 
 
