@@ -178,7 +178,7 @@ function checkAnswer() {
         word_list.splice(current_word_index + rep, 0, word_list[current_word_index])
         console.log(word_list) // show word list in console for debugging
         feedback.textContent = word_list[current_word_index][1] // show answer
-        feedback.style.color = "blue" // in blue
+        feedback.style.color = "pink" // in blue
         canProgress = false; // will not count progress when word is correct, because it will reappear later
         setTimeout(function () {
             feedback.textContent = "";
