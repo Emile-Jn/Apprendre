@@ -1075,7 +1075,7 @@
       "ou"
     ],
     [
-      "ak",
+      "ak, keby",
       "si"
     ],
     [
@@ -1215,6 +1215,196 @@
     [
       "okolo",
       "autour"
+    ]
+  ],
+  [
+    [
+      "teda",
+      "donc"
+    ],
+    [
+      "ani",
+      "ni"
+    ],
+    [
+      "okrem",
+      "sauf"
+    ],
+    [
+      "inak",
+      "sinon"
+    ],
+    [
+      "buď ... alebo",
+      "soit ... soit"
+    ],
+    [
+      "kým",
+      "pendant"
+    ],
+    [
+      "lebo",
+      "parce que"
+    ],
+    [
+      "vedľa",
+      "à côté de"
+    ],
+    [
+      "trochu",
+      "un peu"
+    ],
+    [
+      "celý",
+      "tout"
+    ],
+    [
+      "čiastočne",
+      "en partie"
+    ],
+    [
+      "niektoré",
+      "certains"
+    ],
+    [
+      "menej",
+      "moins"
+    ],
+    [
+      "väčšina",
+      "la plupart de"
+    ],
+    [
+      "veru",
+      "certes"
+    ],
+    [
+      "okrem toho",
+      "de plus"
+    ],
+    [
+      "naopak",
+      "par contre"
+    ],
+    [
+      "kvôli",
+      "à cause de"
+    ]
+  ],
+  [
+    [
+      "každý",
+      "chaque"
+    ],
+    [
+      "niečo",
+      "quelque chose"
+    ],
+    [
+      "niekto",
+      "quelqu'un"
+    ],
+    [
+      "viac",
+      "plus"
+    ],
+    [
+      "namiesto",
+      "au lieu de"
+    ],
+    [
+      "nad",
+      "au dessus"
+    ],
+    [
+      "ostatný",
+      "autre"
+    ],
+    [
+      "vždy, stále",
+      "toujours"
+    ],
+    [
+      "nikdy",
+      "jamais"
+    ],
+    [
+      "často",
+      "souvent"
+    ],
+    [
+      "čo prosím?",
+      "pardon?"
+    ],
+    [
+      "je (existuje)",
+      "il y a"
+    ],
+    [
+      "ešte, stále",
+      "encore"
+    ],
+    [
+      "už",
+      "déjà"
+    ],
+    [
+      "v prípade",
+      "au cas où"
+    ],
+    [
+      "konečne",
+      "enfin"
+    ]
+  ],
+  [
+    [
+      "odkiaľ",
+      "d'où"
+    ],
+    [
+      "takže",
+      "alors"
+    ],
+    [
+      "predsa len",
+      "quand même"
+    ],
+    [
+      "najprv",
+      "d'abord"
+    ],
+    [
+      "predsa",
+      "pourtant"
+    ],
+    [
+      "pretože",
+      "puisque"
+    ],
+    [
+      "aby",
+      "pour que"
+    ],
+    [
+      "hoci",
+      "même si"
+    ],
+    [
+      "od, už",
+      "depuis"
+    ],
+    [
+      "preto",
+      "c'est pourquoi"
+    ],
+    [
+      "súčasne",
+      "en même temps"
+    ],
+    [
+      "jednako",
+      "cependant"
     ]
   ]
 ]
