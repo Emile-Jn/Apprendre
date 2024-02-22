@@ -298,7 +298,9 @@ function showLogs() {
 }
 
 function standardizeApostrophes(str) {
-    return str.replace(/[\u2018\u2019\u00B4\u0060]/g, "\u0027");
+    let result = str.replace(/[\u2018\u2019\u00B4\u0060]/g, "\u0027");
+    result = result.replace(/\.{3}/g, "\u2026");
+    return result
 }
 
 
